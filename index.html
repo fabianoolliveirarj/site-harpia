@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harpia Editora | Fabiano Oliveira</title>
+    <style>
+        /* Estilo inspirado em dramas sociais e thrillers */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Georgia', serif; 
+            line-height: 1.8; 
+            color: #1a1a1a; 
+            background-color: #f9f9f9; 
+        }
+
+        header { 
+            background: #000; 
+            color: #fff; 
+            padding: 60px 20px; 
+            text-align: center; 
+            border-bottom: 4px solid #d4af37; 
+        }
+        header h1 { 
+            font-size: 2.5rem; 
+            letter-spacing: 3px; 
+            text-transform: uppercase;
+            color: #d4af37;
+        }
+
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+
+        .sobre { 
+            background: #fff; 
+            padding: 40px; 
+            border-radius: 4px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 50px;
+        }
+        .sobre h2 { 
+            color: #000; 
+            margin-bottom: 20px; 
+            border-left: 4px solid #d4af37; 
+            padding-left: 15px;
+        }
+
+        .grid-obras { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 25px; 
+        }
+        .card-obra { 
+            background: #fff; 
+            padding: 30px; 
+            border: 1px solid #eee;
+            transition: 0.3s;
+        }
+        .card-obra:hover { border-color: #d4af37; }
+        .card-obra h3 { color: #d4af37; margin-bottom: 15px; }
+
+        .btn { 
+            display: inline-block; 
+            padding: 10px 20px; 
+            background: #000; 
+            color: #d4af37; 
+            text-decoration: none; 
+            font-weight: bold; 
+            border: 1px solid #d4af37;
+        }
+
+        footer { 
+            text-align: center; 
+            padding: 50px 20px; 
+            background: #1a1a1a; 
+            color: #999; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Harpia Editora</h1>
+    <p>Retratando realidades urbanas e dilemas da psique humana</p>
+</header>
+
+<div class="container">
+    <section class="sobre">
+        <h2>Sobre o Autor</h2>
+        <p>
+            <strong>Fabiano Oliveira</strong> é um escritor e editor brasileiro, natural de São João de Meriti. 
+            Sua escrita explora as realidades urbanas e desigualdades sociais através de dramas e thrillers intensos.
+        </p>
+        <p style="margin-top: 15px;">
+            Como estudante de psicologia, Fabiano aplica seus conhecimentos em comportamento humano e anatomia para criar personagens complexos em obras 100% autorais, como <em>As Noites de Angélica</em> e <em>Dona Érica</em>.
+        </p>
+    </section>
+
+    <h2 style="text-align: center; margin-bottom: 30px;">Obras em Foco</h2>
+    <div class="grid-obras">
+        <div class="card-obra">
+            <h3>As Noites de Angélica</h3>
+            <p>Um mergulho na psique humana e no realismo social.</p>
+            <a href="#" class="btn">Em breve</a>
+        </div>
+        <div class="card-obra">
+            <h3>Dona Érica</h3>
+            <p>Uma narrativa sobre fé e as camadas invisíveis da sociedade.</p>
+            <a href="#" class="btn">Em breve</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Harpia Editora &copy; 2026 | São João de Meriti, RJ</p>
+</footer>
+
+</body>
+</html>
